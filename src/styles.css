@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.percentage {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  justify-content: center;
+  width: 25%;
+  padding-top: 10px;
+  border-radius: 25px;
+  background-color: white;
+  height: 2rem;
+  right: 10px;
+  margin-right: 20px;
+  margin-top: 15px;
+  box-shadow: 0px 0px 10px 6px rgb(189, 181, 181);
+}
+.percentage span {
+  font-size: 1.5rem;
+  color: green;
+  font-weight: 550;
+}
+#para {
+  text-align: justify;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 10px 80px;
+}
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(51, 151, 218);
+}
+.image-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px 30px;
+  justify-content: space-around;
+}
+.image-section img {
+  width: 400px;
+  padding: 20px 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
